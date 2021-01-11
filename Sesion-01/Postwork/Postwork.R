@@ -16,6 +16,9 @@ FTHG <- table(equipos$FTHG)
 FTAG <- table(equipos$FTAG) 
 FTHGAG <- table(equipos$FTHG, equipos$FTAG)
 
+# Información de referencia 
+# http://sgpwe.izt.uam.mx/files/users/uami/gvar/Bioestad_I/pdf/prbayes_.pdf
+
 # Estimar La probabilidad (marginal) de que el equipo que juega en casa anote x goles (x = 0, 1, 2, ...)
 res <- FTHG / sum(FTHG)
 paste("La probabilidad marginal de que el equipo que juege en casa anote", c(1:6), "gole es:", res)
