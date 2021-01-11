@@ -28,7 +28,7 @@ for(i in 1:10) {
 ```
 Los bucles WHILE comienzan comprobando una condición. Si esta es verdadera, entonces se entra al cuerpo del bucle. Una vez completada una ejecución de este bloque, se comprueba la condición nuevamente y así sucesivamente hasta que la comprobación de la condición de falso.
 
-```
+```R
 while(<condicion>) {
   # código
   ...

@@ -13,7 +13,7 @@
 
 # Este ejemplo elevará al cuadrado las primeras 10 entradas de un vector generado aleatóriamente de 20 entradas
 
-w <- rnorm(20)              
+w <- rnorm(20)
 print("Este loop calcula el cuadrado de los 10 primeros elementos del vector w")
 
 # inicializando la varialbe wsq
