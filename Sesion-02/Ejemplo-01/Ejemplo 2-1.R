@@ -15,7 +15,7 @@ median(x)
 # alternativa es instalar el paquete DescTools en R mediante la instrucción
 # install.packages("DescTools"), luego utilizamos la función Mode del paquete
 # DescTools
-
+install.packages("DescTools")
 library(DescTools)
 Mode(x) # mode es diferente de Mode (Case sensitive)
 
